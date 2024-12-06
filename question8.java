@@ -14,16 +14,11 @@ System.out.println(x+","+y+" is in qudrant 3");
 System.out.println(x+","+y+" is in qudrant 2");
 }else if(x>0&&y<0){
 System.out.println(x+","+y+" is in qudrant 4");
-}else if(x==0&&y>0){
+}else if(x==0&&y>0||y<0){
 System.out.println(x+","+y+" is in on y axis");
-}else if(x==0&&y<0){
-System.out.println(x+","+y+" is in on -y axis");
-}
-else if(y==0&&x>0){
+}  
+else if(y==0&&x>0||x<0){
     System.out.println(x+","+y+" is in on x axis");
-}
-else if(y==0&&x<0){
-System.out.println(x+","+y+" is in on -x axis");
 }else{
     System.out.println("It is origin");
 }

@@ -12,7 +12,5 @@ if(a==comp){
 }else{
     System.out.println("You got it wrong");
 }
-
-System.out.println(comp);
     }
 }

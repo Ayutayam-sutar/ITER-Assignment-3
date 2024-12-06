@@ -17,11 +17,4 @@ System.out.println("Bill="+price1);
     int price4=(int)(50*3+150*4.80+200*5.80+(u-400)*6.20);
     System.out.println("bill="+price4);
 }
-
-
-
-
-
-
-
     }}

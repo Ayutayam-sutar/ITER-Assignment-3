@@ -5,6 +5,7 @@ public class question10 {
         Scanner sc=new Scanner (System.in);
       System.out.println("Enter your marks 0 to 100");
 int a=sc.nextInt();
+if(a>=0&&a<=100){
         switch(a/10){
             case 10:System.out.println("O");
             break;
@@ -22,8 +23,8 @@ int a=sc.nextInt();
             break;
             case 3:System.out.println("F");
             break;
-            default:System.out.println("Kuch bhi");
-            
+            default:System.out.println("F");
+            }
         }
     }
 }
